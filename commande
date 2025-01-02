@@ -1,0 +1,1 @@
+g++  -fopenmp -o sobel sobel.cpp `pkg-config --cflags --libs opencv4`
