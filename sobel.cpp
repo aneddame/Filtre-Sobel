@@ -3,7 +3,7 @@
 
 int main() {
     // Chemin de l'image
-    std::string imagePath = "download.jpg";
+    std::string imagePath = "/home/odroid/Desktop/flcss/img/right/3.jpeg";
 
     // Charger l'image
     cv::Mat image = cv::imread(imagePath, cv::IMREAD_COLOR);
